@@ -66,7 +66,7 @@ Note: This recipe should be run under linux (tested on RedHat and Ubuntu)
 
 # Common Issues:
 - "awk:function gensub never defined”. The problem can be solved by typing the following command:  sudo apt-get install gawk
-- make sure your ~/.bashrc containes the needed kaldi paths.
+- make sure your ~/.bashrc contains the needed kaldi paths.
 
 ```PATH=$PATH:/home/kaldi-trunk/tools/openfst-1.3.4/bin
    PATH=$PATH:/home/kaldi-trunk/src/featbin

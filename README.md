@@ -95,7 +95,7 @@ We recommend to use a CUDA-capable GPU for the DNN experiments. Before starting 
     
     
 # References:
-If you use the DIRHA English wsj dataset or the relatated baselines and tools, please cite the following papers:
+If you use the DIRHA English wsj dataset or the related baselines and tools, please cite the following papers:
 
 [1] M. Ravanelli, L. Cristoforetti, R. Gretter, M. Pellin, A. Sosi, M. Omologo, "The DIRHA-English corpus and related tasks for distant-speech recognition in domestic environments", in Proceedings of ASRU 2015.
 

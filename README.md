@@ -62,11 +62,12 @@ Note: This recipe should be run under linux (tested on RedHat and Ubuntu)
 - "awk:function gensub never defined”. The problem can be solved by typing the following command:  sudo apt-get install gawk
 - make sure your ~/.bashrc containes the needed kaldi paths.
 
-  PATH=$PATH:/home/kaldi-trunk/tools/openfst-1.3.4/bin
-  PATH=$PATH:/home/kaldi-trunk/src/featbin
-  PATH=$PATH:/home/kaldi-trunk/src/gmmbin
-  PATH=$PATH:/home/kaldi-trunk/src/bin
-  PATH=$PATH:/home/kaldi-trunk/src/nnetbin
+```PATH=$PATH:/home/kaldi-trunk/tools/openfst-1.3.4/bin
+   PATH=$PATH:/home/kaldi-trunk/src/featbin
+   PATH=$PATH:/home/kaldi-trunk/src/gmmbin
+   PATH=$PATH:/home/kaldi-trunk/src/bin
+   PATH=$PATH:/home/kaldi-trunk/src/nnetbin
+   ```
 
 # Cuda Experiments:
 We recommend to use a CUDA-capable GPU for the DNN experiments. Before starting the experiments we suggest to do the following checks:

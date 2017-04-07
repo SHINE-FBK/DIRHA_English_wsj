@@ -1,0 +1,2 @@
+<mic>id=ref-chirp,xpos=ND,ypos=ND,zpos=ND</mic>
+<pos>id=T2/O5,xpos=262,ypos=268,zpos=150</pos>

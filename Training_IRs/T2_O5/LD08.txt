@@ -1,0 +1,3 @@
+<mic>id=LD08,xpos=51.0,ypos=284.0,zpos=204.5</mic>
+<pos>id=T2/O5,xpos=262,ypos=268,zpos=150</pos>
+<add_info>T60=0.613396 (sec), TOF_IR=308.000000 (samples), TOF_geom=308.486741 (samples)</add_info>

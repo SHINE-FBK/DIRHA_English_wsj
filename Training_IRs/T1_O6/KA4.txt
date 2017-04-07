@@ -1,0 +1,2 @@
+<mic>id=KA4,xpos=184.8,ypos=203.4,zpos=274.8</mic>
+<pos>id=T1/O6,xpos=360,ypos=72,zpos=150</pos>

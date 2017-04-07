@@ -3,7 +3,7 @@ This github project contains the kaldi baselines and the tools for the DIRHA Eng
 You can download the data from the Linguistic Data Consortuim (LDC) website:
 
 The wsj part of the DIRHA English Dataset [1,2] is a multi-microphone acoustic corpus being developed under the EC project Distant-speech Interaction for Robust Home Applications ([DIRHA](https://dirha.fbk.eu/)). The corpus is composed of both real and simulated sequences recorded  with 32 sample-synchronized microphones in a domestic environment. 
-The database contains signals of different characteristics in terms of noise and reverberation making it suitable for various multi-microphone signal processing and distant speech recognition tasks. The part of the dataset currently released (referred to as “development” set ) is composed of  6 native US speakers (3 Males, 3 Females) uttering  409 wsj sentences. 
+The database contains signals of different characteristics in terms of noise and reverberation making it suitable for various multi-microphone signal processing and distant speech recognition tasks. The part of the dataset currently released is composed of  6 native US speakers (3 Males, 3 Females) uttering  409 wsj sentences. 
 The current repository provides the related Kaldi recipe and the tools that are necessary to generate the training material for kaldi-based distant speech recognizer.
 
 In order to facilitate the use of this dataset for speech recognition purposes, a MATLAB script is released for data contamination of the original close-talking WSJ corpus (Data_Contamination.m).

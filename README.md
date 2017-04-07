@@ -88,6 +88,14 @@ We recommend to use a CUDA-capable GPU for the DNN experiments. Before starting 
     B. nvcc  vectorAdd.cu
     C. ./vectorAdd
     The result should be this: “Test PASSED”
+    
+    
+# References:
+If you use the DIRHA English wsj dataset or the relatated baselines and tools, please cite the following papers:
+
+[1] M. Ravanelli, L. Cristoforetti, R. Gretter, M. Pellin, A. Sosi, M. Omologo, "The DIRHA-English corpus and related tasks for distant-speech recognition in domestic environments", in Proceedings of ASRU 2015.
+
+[2] M. Ravanelli, P. Svaizer, M. Omologo, "Realistic Multi-Microphone Data Simulation for Distant Speech Recognition",in Proceedings of Interspeech 2016.
 
 
 

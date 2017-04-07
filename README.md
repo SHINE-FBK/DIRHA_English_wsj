@@ -58,8 +58,7 @@ Note: This recipe should be run under linux (tested on RedHat and Ubuntu)
         dnn-DIRHA_real  WER=30.0%
 
 
-
-COMMON ISSUES:
+# Common Issues:
 - "awk:function gensub never defined”. The problem can be solved by typing the following command:  sudo apt-get install gawk
 - make sure your ~/.bashrc containes the needed kaldi paths.
 
@@ -69,7 +68,7 @@ COMMON ISSUES:
   PATH=$PATH:/home/kaldi-trunk/src/bin
   PATH=$PATH:/home/kaldi-trunk/src/nnetbin
 
-EXPERIMENTS WITH CUDA
+# Cuda Experiments:
 We recommend to use a CUDA-capable GPU for the DNN experiments. Before starting the experiments we suggest to do the following checks:
 
 1. Make sure you have a cuda-capable GPU by typing “nvidia-smi”

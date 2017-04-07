@@ -37,10 +37,8 @@ Note: This recipe should be run under linux (tested on RedHat and Ubuntu)
         decode_nj=6 # number of jobs for decoding (maximum 6)
    - F. Set directory of the contaminated wsj dataset previously created by the MATLAB script in "wsj0_folder" and "wsj0_contaminated_folder"
    - G. Set directory of the DIRHA dataset in “DIRHA_wsj_data” (e.g., dirha=DIRHA_English_wsj5k_released/Data/DIRHA_wsj_oracle_VAD_mic_LA6)
-   - H. Run the script “./run.sh”
-   - I. See the results by typing “./RESULTS”. Please note that the results may vary depending on: operating system, system architecture, version of kaldi.
-        The performance obtained by us (we observed a std of about 0.6%) are repored below:
-        --------------------------------------
+   - H. Run the script “./run.sh” .See the results by typing “./RESULTS”. Please note that the results may vary depending on: operating system, system architecture, version of kaldi. The performance obtained by us (we observed a std of about 0.6%) are repored below.
+
         mono-DIRHA_sim  WER=69.0%
         mono-DIRHA_real WER=72.1%
 
@@ -58,7 +56,7 @@ Note: This recipe should be run under linux (tested on RedHat and Ubuntu)
 
         dnn-DIRHA_sim   WER=22.8%
         dnn-DIRHA_real  WER=30.0%
-        --------------------------------------
+
 
 
 COMMON ISSUES:

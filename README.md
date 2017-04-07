@@ -39,6 +39,7 @@ Note: This recipe should be run under linux (tested on RedHat and Ubuntu)
    - G. Set directory of the DIRHA dataset in “DIRHA_wsj_data” (e.g., dirha=DIRHA_English_wsj5k_released/Data/DIRHA_wsj_oracle_VAD_mic_LA6)
    - H. Run the script “./run.sh” .See the results by typing “./RESULTS”. Please note that the results may vary depending on: operating system, system architecture, version of kaldi. The performance obtained by us (we observed a std of about 0.6%) are repored below.
 
+```
         mono-DIRHA_sim  WER=69.0%
         mono-DIRHA_real WER=72.1%
 
@@ -57,6 +58,7 @@ Note: This recipe should be run under linux (tested on RedHat and Ubuntu)
         dnn-DIRHA_sim   WER=22.8%
         dnn-DIRHA_real  WER=30.0%
 
+```
 
 # Common Issues:
 - "awk:function gensub never defined”. The problem can be solved by typing the following command:  sudo apt-get install gawk

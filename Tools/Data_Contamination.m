@@ -22,9 +22,9 @@ warning off
 %-----------------------------------------------------------------------
 
 % Paths of the original datasets
-wsj_folder='/nfsmnt/moissan1/data/mravanelli/DIRHA_English_database/Data/Extracted_data/WSJ0/wsj0'; % Path of the original close-talk WSJ dataset
-dirha_folder='/nfsmnt/moissan1/data/mravanelli/DIRHA_English_database/Data/DIRHA_English_wsj5k_released_last/DIRHA_English_wsj'; % Path of the DIRHA_data
-
+wsj_folder='/home/mirco/Dataset/WSJ0/wsj0'; % Path of the original close-talk WSJ dataset
+dirha_folder='/home/mirco/Dataset/DIRHA_English_wsj5k_released_last/DIRHA_English_wsj'; % Path of the DIRHA_data
+sph_reader='/home/mirco/sph2pipe_v2.5/sph2pipe'; % directory for the sphere reader.  It should be downloaded https://www.ldc.upenn.edu/language-resources/tools/sphere-conversion-tools and compiled
 % output paths/names
 out_folder='Data_processed'; % Path where to store the processed data
 
@@ -86,7 +86,7 @@ for i=1:length(list)
  load(IR_file);
 
  % Reading the original WSJ signal
- signal=read_sphere(list{i});
+ signal=read_sphere(sph_reader,list{i});
  
  % 16-48 kHz conversion (IRs were measured at 48 kHz)
  signal=resample(signal,3,1);
